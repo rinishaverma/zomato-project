@@ -4,5 +4,51 @@
 }
 body {
     font-family: 'Merriweather', serif;
+    background-color: #f9fafc;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px ;
+}
+.header_logo {
+    width: 100px;
+}
+.brand_logo {
+    width: 100%;
+}
+.navbar_button {
+    background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
 
+    );
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: large;
+}
+.navbar_button:hover {
+    border:2px #dd2476 solid ;
+    cursor: pointer;
+}
+@media (min-width:768px) {
+    .navbar {
+        justify-content: space-between;
+        padding: 10px 30px;
+    }
+}
+@media (min-width:1024px) {
+    .brand_logo {
+        width: 180px;
+    }
+    .navbar_button {
+        padding: 12px;
+        
+    }
 }
