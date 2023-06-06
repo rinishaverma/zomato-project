@@ -53,3 +53,9 @@ body {
         
     }
 }
+.hero_image {
+    width: 100px;
+}
+.food_image {
+    width: 100%;
+}
